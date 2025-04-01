@@ -3,6 +3,7 @@
 import React, {FormEvent, Fragment, useState} from 'react'
 import {Description, Dialog, DialogPanel, DialogTitle, Transition, TransitionChild, Button} from '@headlessui/react'
 import Image from "next/image";
+import {addUserEmailToProduct} from "@/lib/actions";
 
 interface ModalProps {
     productId?: string
@@ -17,7 +18,7 @@ const Modal = ({productId}: ModalProps) => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // await addUserEmailToProduct(productId, email);
+        await addUserEmailToProduct(productId, email);
 
         setIsSubmitting(false)
         setEmail('')
