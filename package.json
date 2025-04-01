@@ -12,8 +12,12 @@
     "axios": "^1.8.3",
     "cheerio": "^1.0.0",
     "mongoose": "^8.12.1",
+<<<<<<< HEAD
     "next": "15.2.2",
     "nodemailer": "^6.10.0",
+=======
+    "next": "15.2.3",
+>>>>>>> 6b041eb59b6c5741657203cf00548c6184d0dc45
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-responsive-carousel": "^3.2.23"
